@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://PratapTyagi:Iolxe9P1frIIjkm1@cluster0.agb0r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://PratapTyagi:LVLxX47L2A0keL5W@cluster0.agb0r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:8080"
 }
