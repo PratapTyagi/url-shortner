@@ -18,7 +18,7 @@ router.post("/shorten", async (req, res) => {
 
   if (validUrl.isUri(longUrl)) {
     try {
-      const url = await model.findOne({ longUrl });
+      let url = await model.findOne({ longUrl });
       if (url) {
         res.json(url);
       } else {

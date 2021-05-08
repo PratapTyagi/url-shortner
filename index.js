@@ -9,8 +9,8 @@ const app = express();
 connectDb();
 
 app.use(express.json({ extended: false }));
-app.use("/", createUrl);
-app.use("/api/url", getUrl);
+app.use("/", getUrl);
+app.use("/api/url", createUrl);
 
 const PORT = process.env.PORT || 8080;
 
