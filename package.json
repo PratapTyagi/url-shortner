@@ -1,0 +1,24 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This app makes length to be short",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Pratap Tyagi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
